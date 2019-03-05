@@ -1,0 +1,2 @@
+# Coinreco
+Decentralized business solutions.
