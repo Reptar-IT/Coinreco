@@ -1,0 +1,339 @@
+/* Html Tags */
+
+body {
+  background-color: #f2f4fb;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+section {
+  padding: 3% 12%;
+}
+
+/* Classes */
+/* Sections */
+.section-dark {
+  background-color: #373331;
+  color: #fff;
+}
+
+.section-ck-balance {
+  background-color: #a80038;
+  color: #fff;
+  padding: 1% 12%;
+}
+
+/* Home Index Page */
+.nav-sec {
+  background-color: #fff;
+  padding: 1% 5%;
+}
+
+.navpri {
+  padding: 0 0;
+}
+
+.navsec {
+  text-align: left;
+  padding: 0 0;
+}
+
+.navbar-logo {
+  position: relative;
+  margin: 0 0 10px 0;
+  width: 3.125rem;
+}
+
+.navbar-brand {
+  color: #000;
+  font-size: 1.6rem;
+  font-family: 'Teko', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #ff9280;
+}
+
+.nav-item {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0 0.6rem;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #ff9280;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: black 1px solid;
+}
+
+
+.dropdown-item {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Title */
+.about {
+  text-align: left;
+}
+
+.title-btn {
+  text-align: center;
+  margin: 7% 0;
+}
+
+.title-logo {
+  font-family: 'Teko', sans-serif;
+}
+
+.title-img {
+  position: relative;
+  width: 250px;
+}
+
+.r {
+  border: #373331 1px solid;
+}
+
+.title-dark {
+  background-color: #373331;
+  color: #fff;
+}
+
+.body-light {
+  background-color: #fff;
+  color: #2a6171;
+  padding: 5% 0;
+}
+
+.body-dark {
+  background-color: #373331;
+  color: #fff;
+  padding: 5% 0;
+}
+
+.bal-inquery {
+  margin: 3% 0;
+}
+
+/* Features */
+.features-fa {
+  color: #db2d43;
+  margin: 2.25rem auto;
+}
+
+.features-fa:hover {
+  color: #a80038;
+}
+
+/* Tokensale */
+
+/* Header */
+.rd-header, .team-header {
+  padding-bottom: 4.5rem;
+}
+
+.contact-headers, .about-header {
+  padding-bottom: 1.5rem;
+}
+
+/* Link Hover */
+.rd-event-link:hover, .contact-links:hover {
+  color: #ff9280;
+  text-decoration: none;
+}
+
+.rd-pin-1:hover, .rd-pin-2:hover, .rd-circle:hover {
+  color: #a80038;
+}
+
+.abt-img-container {
+  text-align: center;
+}
+
+/* About */
+.about-img {
+  position: relative;
+  width: 250px;
+}
+
+/* Roadmap */
+.roadmap {
+  height: 25rem;
+}
+
+.event-p {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.pin-cush {
+  text-align: center;
+  z-index: 1;
+}
+
+.rd-event-link {
+  color: #1d5464;
+  text-decoration: none;
+}
+
+.rd-event-1 {
+  position: relative;
+  left: 4px;
+}
+
+.rd-event-2 {
+  position: relative;
+  top: 200px;
+  right: 4px;
+}
+
+.rd-pin-1 {
+  color: #db2d43;
+  position: relative;
+  top: 0;
+  left: 27px;
+}
+
+.rd-pin-2 {
+  color: #db2d43;
+  position: relative;
+  top: 70px;
+  right: 27px;
+  transform: rotate(180deg);
+}
+
+.rd-circle {
+  color: #db2d43;
+  background-color: #fff;
+  padding: 10px 10px;
+  position: relative;
+  top: 36px;
+}
+
+.roadmap-hr {
+  border-width: 2px;
+  border-color: #db2d43;
+}
+
+/* Team */
+.team-img {
+  border-radius: 100%;
+  margin: 8% 0;
+  width: 40%;
+}
+
+.team-role {
+  padding: 0.6rem 0;
+}
+
+/* Media */
+.media-logo {
+  margin: 0 3%;
+  width: 15%;
+}
+
+/* Contact */
+.contact {
+  text-align: left;
+  padding: 3% 5%;
+}
+
+.contact-content {
+  font-size: 0.9rem;
+}
+
+.contact-links {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.contact-headers {
+  margin: 0.4rem 0 0;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fa-social-icon {
+  padding: 9% 4%;
+}
+
+/* DApp Page */
+.dapp-top {
+  text-align: center;
+}
+
+.div-calc {
+  margin: 1.5% 0 0;
+}
+
+.dapp-box {
+  background-color: #fff;
+}
+
+.dapp-list {
+  background-color: #ecf2f9;
+  margin: 1%;
+  text-align: left;
+}
+
+.dapp-list-image {
+  height: 7.375rem;
+  margin: 3% 0 0;
+  text-align: center;
+}
+
+.dapp-image {
+  height: 100%;
+  width: 100%;
+}
+
+.dapp-desc {
+  padding-top: 1.5%;
+}
+
+.dapp {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  padding: 1% 5%;
+  text-align: center;
+}
+
+.footer-content {
+  font-size: 0.8rem;
+}
+
+.footer-fas {
+  margin: 0 1.5rem 0 0;
+}
+
+/* Mobile and Tablets */
+@media (max-width: 991px) {
+  .navpri {
+    display: none;
+  }
+}

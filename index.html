@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CoinReco</title>
+
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Font awesome gliphycons CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Teko|Montserrat|Sacramento|Ubuntu" rel="stylesheet">
+
+    <!-- Custom CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <section class="nav-sec">
+      <nav class="navpri navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="images/logo.png" alt=""> COINRECO</a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              TRX
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">BTC</a>
+              <a class="dropdown-item" href="#">EUR</a>
+              <a class="dropdown-item" href="#">TRX</a>
+              <a class="dropdown-item" href="#">USD</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              EN
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">ENGLISH</a>
+              <a class="dropdown-item" href="#">FRENCH</a>
+              <a class="dropdown-item" href="#">ESPANOL</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="navsec navbar navbar-expand-lg ">
+        <a class="navbar-brand d-lg-none" href="index.html"><img class="navbar-logo" src="images/logo.png" alt=""> COINRECO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">TOKEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dapp.html">DAPPS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CONTRACTS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">CONTRACTS</a>
+                <a class="dropdown-item" href="#">CONTRACT TRIGGERS</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                DOCUMENTATION
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">WHITEPAPER</a>
+                <a class="dropdown-item" href="roadmap.html">ROADMAP</a>
+                <a class="dropdown-item" href="#">ARCHITECTURE</a>
+                <a class="dropdown-item" href="#">DIVIDENDS</a>
+                <a class="dropdown-item" href="#">FAQ</a>
+                <a class="dropdown-item" href="#">GUIDES</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="team.html">TEAM</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+
+    <section class="title section-light">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="title-dark col-md-12">
+            <img class="title-img" src="images/logo.png" alt="title-image">
+            <h1 class="title-logo">COINRECO</h1>
+            <h4>Dividends, Equity / Shares, Currency. </h4>
+            <p>Got RECO in your wallet ?</p>
+          </div>
+          <div class="body-light col-md-12">
+            <h5>Balance Enquery</h5>
+            <p>Input your Tron wallet address to check your dividend balance.</p>
+            <div class="bal-inquery col-md-6 mx-auto">
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Tron wallet address" aria-label="tron wallet address" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Inquire</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="features container-fluid">
+            <div class="body-dark row">
+              <div class="col-md-4">
+                <i class="features-fa fab fa-connectdevelop fa-4x"></i>
+                <h3>Decentralized</h3>
+                <p>
+                  Built on Tron.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <i class="features-fa fas fa-fist-raised fa-4x"></i>
+                <h3>Built strong</h3>
+                <p>
+                  Start free, earn by administrating DApps.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <i class="features-fa far fa-money-bill-alt fa-4x"></i>
+                <h3>Hodlers</h3>
+                <p>
+                  Withdraw Tron dividends instantly when DApps profit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about container-fluid">
+            <div class="body-light row">
+              <div class="col-lg-4 col-md-12">
+                <div class="abt-img-container">
+                  <img class="about-img" src="images/logo.png" alt="about-image">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <h2 class="title-logo text-center">TOKEN SPECIFICS</h2>
+                <h4 class="title-logo">Name: <small>Daley</small></h4>
+                <h4 class="title-logo">Symbol: <small>Reco</small></h4>
+                <h4 class="title-logo">Total Supply: <small>50 000 000</small></h4>
+                <h4 class="title-logo">Decimal: <small>0</small></h4>
+                <h4 class="title-logo">Address: <small>Contract</small></h4>
+              </div>
+              <div class="col-lg-5 col-md-6 text-center">
+              <h2 class="title-logo">ACQUIRE RECO</h2>
+              <div class=" col-md-10 mx-auto">
+                <form>
+                  <div class="form-row align-items-center">
+                    <div class="input-group mb-3">
+                      <input type="number" class="form-control" placeholder="Token amount" aria-label="Token amount" aria-describedby="button-addon2">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2" disabled>Reco</button>
+                      </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <input type="number" class="form-control" placeholder="Price" aria-label="Price" aria-describedby="button-addon2">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2" disabled>Tron</button>
+                      </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <button class="btn btn-outline-secondary btn-block" type="button" id="button-addon2">Buy</button>
+                    </div>
+
+                    <small>
+                      Prices stated in USD for clarity purposes.
+                    </small>
+
+                  </div>
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about container-fluid">
+            <div class="body-dark row">
+              <div class="col-md-12">
+                <h2 class="title-logo">COINRECO</h2>
+                <h4 class="title-logo">About</h4>
+                <p>
+                  Coinreco is revolutionizing profit sharing by combining the functionality of shares, equity, and currency into a dividend bearing token.
+                </p>
+                <h4 class="title-logo">What Is Coinreco?</h4>
+                <p>
+                  Coinreco is a collection of business solutions that were created using solidity smart contracts which makes them decentralized applications (DApps). Coinreco is represented by the Daley(Reco) dividend bearing token smart contract.
+                </p>
+                <h4 class="title-logo">How Does It Work?</h4>
+                <p>
+                  Each business solution smart contract has a built in function to pay a fee to the
+                  Daley(Reco) token smart contract address for each service transaction that takes place.
+                </p>
+                <h4 class="title-logo">Why Entrepreneurs Use?</h4>
+                <p>
+                  Wether you are a beginner in business or have years of experience as a Business Person, Marketer or Developer. You will find that owning a business is now a free with no upfront costs. It is a simple proccess of copying, pasting and managing any of our business solutions.
+                </p>
+                <h4 class="title-logo">Why Investors Hold?</h4>
+                <p>
+                  The adaptability and scalable nature of Coinreco's business model compensates all parties. The customers get the product or service. Managers/Admins of the business solution get paid by their customers. Token holders recieve dividends. There is a no cost market entry encouraging and attracting entrepreneurs to use our solutions which proliferates our users base. Everybody get what they came for.
+                </p>
+                <h4 class="title-logo">Token Offering</h4>
+                <p>
+                  There will be two rounds of token offering each round will offer 20% of Daley(Reco)'s token total supply. The first round will be open to all comers at a low price with minimum entry purchases of 1 Daley(Reco). The second round will be later in ther future and will be open to all comers at market price with a minimum purchase of 50000 Daley(Reco). After each round is served
+                </p>
+                <h4 class="title-logo">Where Does Value Come From?</h4>
+                <p>
+                  Value is given to anything that have meaning to someone.
+
+                </p>
+                <p>
+                  Bitcoin's value came from being the first decentralized cryptocurrency that is immutable and appearance of having anonymous transactions.
+                </p>
+                <p>
+                  Monero's value comes from being actaully having anonymous transactions as well as being even more decnetralized due to it's lightweight virus type nature of mining.
+                </p>
+                <p>
+                  Ether's value comes from be able to create smart contracts using it's virtual machine and being able to process more transaction per second than Bitcoin.
+                </p>
+                <p>
+                  Tron's value comes from being able to use many more languages to create smart contracts in it's virtual machine and being able to process more transaction per second than ethereum. Their prices however comes from speculation.
+                </p>
+                <p>
+                  Reco's value come from the profits of Coinreco's business solutions which are paid to the token holders in dividends. Value also come from the oportunity CoinReco creates by having a no cost entry to owning a business and earining from it. The creator of Reco and Coinreco's business solutions get paid by soley through profit dividends.
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="body-light container-fluid">
+            <div class="media">
+              <div class="media-box">
+                <img class="media-logo" src="images/bizinsider.png" alt="media-logo-img">
+                <img class="media-logo" src="images/mashable.png" alt="media-logo-img">
+                <img class="media-logo" src="images/techcrunch.png" alt="media-logo-img">
+                <img class="media-logo" src="images/tnw.png" alt="media-logo-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="title section-light">
+      <div class="container-fluid">
+        <div class="row">
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <section  class="contact section-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <h4 class="contact-headers">COINRECO</h4>
+            <p class="contact-content">
+              Financially empowering earthlings.
+            </p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4 class="contact-headers">Learn More</h4>
+              <p><a class="contact-links" href="#"><i class="footer-fas fas fa-angle-right"></i>Github</a></p>
+              <p><a class="contact-links" href="#"><i class="footer-fas fas fa-angle-right"></i>Partners</a></p>
+              <p><a class="contact-links" href="#"><i class="footer-fas fas fa-angle-right"></i>Report Bug</a></p>
+              <p><a class="contact-links" href="#"><i class="footer-fas fas fa-angle-right"></i>Roadmap</a></p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4 class="contact-headers">Quick Links</h4>
+              <p><a class="contact-links" href="dapp.html"><i class="footer-fas fas fa-angle-right"></i>DApps</a></p>
+              <p><a class="contact-links" href="#"><i class="footer-fas fas fa-angle-right"></i>Blog</a></p>
+              <p><a class="contact-links" href="#"><i class="footer-fas fas fa-angle-right"></i>Contact Us</a></p>
+              <p><a class="contact-links" href="#"><i class="footer-fas fas fa-angle-right"></i>Help Center</a></p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <h4 class="contact-headers">Subscribe</h4>
+            <p class="contact-content">Get latest newsletters</p>
+            <div class="mx-auto">
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="example@email.com" aria-label="example@email.com" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark" type="button" id="button-addon2">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <i class="fa-social-icon fab fa-twitter"></i>
+            <i class="fa-social-icon fab fa-facebook-f"></i>
+            <i class="fa-social-icon fab fa-instagram"></i>
+            <i class="fa-social-icon fas fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section  class="footer section-dark">
+      <div class="container-fluid">
+        <p class="footer-content">© 2018 Copyrights COINRECO. All rights reserved.</p>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  </body>
+</html>
